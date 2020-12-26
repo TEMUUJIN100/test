@@ -40,7 +40,7 @@ export default class App extends Component {
           <Switch>
             <Route path="/course/:id" render={() => <h1>Hello</h1>} />
             <Route path="/">
-              <h1>1234.mn сургалтууд</h1>
+              <h1>1234.mn ргалтууд</h1>
               <SearchBox onSearch={this.onSearchChanged} />
               <CardList courses={filteredcourse} />
             </Route>
